@@ -3,15 +3,15 @@
 radix_random = (count, numOfDigits) ->
 
     randomList = generateRandomList count, numOfDigits
-    sortedList = radix_sort randomList
+    sortedList = radix_sort randomList, numOfDigits
 
     """
     Random: #{randomList.join ' '}
      Sorted: #{sortedList.join ' '}
     """
 
-# Generates a list of `count` random numbers with at most `digits` number of
-# digits in each number.
+# Generates a list of `count` random numbers with at most `numOfDigits` number
+# of digits in each integer.
 # :: int -> int -> [int]
 generateRandomList = (count, numOfDigits) ->
     list = []
@@ -19,11 +19,18 @@ generateRandomList = (count, numOfDigits) ->
         list.push Math.floor Math.random() * Math.pow 10, numOfDigits
     list
 
-# Takes a list of random numbers and the highest number of digits that occur,
-# and returns a new list with the same numbers, sorted.
-# :: [int] -> [int]
-radix_sort = (list) ->
-    for digit in [0..Math.max(list...).toString().length-1]
+
+# Main function.
+#
+# Takes a list of random numbers and returns a new sorted list.
+#
+# If you know the max number of digits that occurs in the list, then you can
+# speed things up a bit by adding it as a second argument
+#
+# :: [int] -> (int ->) [int]
+radix_sort = (list, numOfDigits) ->
+    numOfDigits ?= Math.max(list...).toString().length-1
+    for digit in [0..numOfDigits]
         buffer = [ [], [], [], [], [], [], [], [], [], [] ]
         buffer[getDigitAt digit, int].push int for int in list
         list = flatten buffer

@@ -5,7 +5,7 @@
   radix_random = function(count, numOfDigits) {
     var randomList, sortedList;
     randomList = generateRandomList(count, numOfDigits);
-    sortedList = radix_sort(randomList);
+    sortedList = radix_sort(randomList, numOfDigits);
     return "Random: " + (randomList.join(' ')) + "\n Sorted: " + (sortedList.join(' '));
   };
 
@@ -18,9 +18,12 @@
     return list;
   };
 
-  radix_sort = function(list) {
-    var buffer, digit, int, _i, _j, _len, _ref;
-    for (digit = _i = 0, _ref = Math.max.apply(Math, list).toString().length - 1; 0 <= _ref ? _i <= _ref : _i >= _ref; digit = 0 <= _ref ? ++_i : --_i) {
+  radix_sort = function(list, numOfDigits) {
+    var buffer, digit, int, _i, _j, _len;
+    if (numOfDigits == null) {
+      numOfDigits = Math.max.apply(Math, list).toString().length - 1;
+    }
+    for (digit = _i = 0; 0 <= numOfDigits ? _i <= numOfDigits : _i >= numOfDigits; digit = 0 <= numOfDigits ? ++_i : --_i) {
       buffer = [[], [], [], [], [], [], [], [], [], []];
       for (_j = 0, _len = list.length; _j < _len; _j++) {
         int = list[_j];
@@ -59,5 +62,3 @@
   window.radix_sort = radix_sort;
 
 }).call(this);
-
-//# sourceMappingURL=radix_sort.map
