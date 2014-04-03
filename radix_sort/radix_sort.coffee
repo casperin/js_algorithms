@@ -1,4 +1,4 @@
-# Main sorting function. The real "magic" happens in `sortList`
+# Helper fn to the user. The real "magic" happens in `radix_sort`
 # :: int -> int -> string
 radix_random = (count, numOfDigits) ->
 
