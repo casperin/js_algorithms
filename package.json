@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "node test"
+  },
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
