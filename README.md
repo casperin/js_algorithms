@@ -6,6 +6,8 @@ List to pick up from (mostly from [big-o cheat sheet](http://bigocheatsheet.com)
 
 ## Run tests
 
+Running tests requires node 6 (`nvm install 6`).
+
 ```sh
 npm test
 ```
@@ -19,7 +21,7 @@ npm test
 * [x] [Circular Queue](data-structures/circular-queue)
 * [x] [Binary Heap](data-structures/binary-heap)
 * [x] [Priority Queue](data-structures/priority-queue)
-* [ ] Singly-Linked List
+* [x] [Singly-Linked List](data-structures/singly-linked-list)
 * [ ] Double-Linked List
 * [ ] Skip List
 * [ ] Binary Search Tree
