@@ -1,6 +1,6 @@
-module.exports = function heap (compare) {
+module.exports = function binaryHeap (compare) {
+  compare = compare ? compare : (a, b) => a > b; // descending
   const heap = [];
-  compare = compare || (a, b) => a > b; // descending
   const swap = (a, b) => {
     const tmp = heap[a];
     heap[a] = heap[b];
