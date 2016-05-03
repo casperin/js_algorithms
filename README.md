@@ -9,7 +9,7 @@ List to pick up from (mostly from [big-o cheat sheet](http://bigocheatsheet.com)
 * [x] Stack
 * [x] Queue
 * [x] Circular Queue
-* [ ] Heap
+* [x] Binary Heap
 * [ ] Priority Queue
 * [ ] Singly-Linked List
 * [ ] Double-Linked List
