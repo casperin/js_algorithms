@@ -9,6 +9,7 @@ List to pick up from (mostly from [big-o cheat sheet](http://bigocheatsheet.com)
 * [x] Stack
 * [x] Queue
 * [x] Circular Queue
+* [ ] Heap
 * [ ] Priority Queue
 * [ ] Singly-Linked List
 * [ ] Double-Linked List
@@ -29,7 +30,7 @@ List to pick up from (mostly from [big-o cheat sheet](http://bigocheatsheet.com)
 * [ ] Insertion Sort
 * [ ] Selection Sort
 * [ ] Bucket Sort
-* [ ] Radix Sort
+* [x] Radix Sort
 
 ## Graph Operations
 
