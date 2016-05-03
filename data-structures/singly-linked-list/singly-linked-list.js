@@ -31,12 +31,30 @@ module.exports = function singleLinkedList () {
     }
   };
 
-  const update = (n, item) => {
-    if (n === 0) return push(item);
-    // Since each item is linked, we need the item before and after
+  /**
+   * To delete an item we link the former directly to the item after.
+   */
+  const remove = n => {
+    if (length === 0) throw new Error('remove of empty linked-ist');
     try {
       const before = getAt(n - 1);
       const after = before[1][1];
+      before[1] = after;
+      length--
+    } catch (e) {
+      throw new Error('Delete on non existent item');
+    }
+  }
+
+  /**
+   * To update an item, we linked the former to a new created item that links
+   * to the one after the item we want to update.
+   */
+  const update = (n, item) => {
+    if (n === 0) return push(item);
+    try {
+      const before = getAt(n - 1);
+      const after = before[1][1]; // getAt(n + 1)
       before[1] = [item, after];
     } catch (e) {
       throw new Error('You tried to update non existent item');
@@ -47,5 +65,5 @@ module.exports = function singleLinkedList () {
   const isEmpty = _ => length === 0;
   const hasNext = _ => length > 0;
 
-  return {push, pop, peek, update, getSize, isEmpty, hasNext};
+  return {push, pop, peek, update, remove, getSize, isEmpty, hasNext};
 };

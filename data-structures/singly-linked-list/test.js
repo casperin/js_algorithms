@@ -26,6 +26,11 @@ tape('data-structures/singly-linked-list', t => {
 
   t.equal(list1.peek(1), 5, '.update()');
 
+  list1.remove(1);
+  t.equal(list1.getSize(), 2, 'Removing item');
+  t.equal(list1.pop(), 3, 'Making sure item was removed 1');
+  t.equal(list1.pop(), 1, 'Making sure item was removed 2');
+
   t.throws(_ => list1.peek(42), 'Trying to peek out of bounds throws');
   t.throws(_ => list1.update(42, 'foo'), 'Trying to update out of bounds throws');
 
