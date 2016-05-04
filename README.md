@@ -17,12 +17,12 @@ npm test
 ### Data Structures
 
 * [x] [Stack](data-structures/stack)
-* [x] [Queue](data-structures/queue)
-* [x] [Circular Queue](data-structures/circular-queue)
-* [x] [Binary Heap](data-structures/binary-heap)
-* [x] [Priority Queue](data-structures/priority-queue)
-* [x] [Singly-Linked List](data-structures/singly-linked-list)
-* [x] [Double-Linked List](data-structures/double-linked-list)
+* [x] [Queue](data-structures/queue/simple-queue)
+* [x] [Circular Queue](data-structures/queue/circular-queue)
+* [x] [Binary Heap](data-structures/heap/binary-heap)
+* [x] [Priority Queue](data-structures/queue/priority-queue)
+* [x] [Singly-Linked List](data-structures/linked-list/singly-linked-list)
+* [x] [Double-Linked List](data-structures/linked-list/double-linked-list)
 * [ ] Skip List
 * [ ] Binary Search Tree
 * [ ] B-Tree
