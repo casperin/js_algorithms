@@ -15,6 +15,7 @@ module.exports = function singleLinkedList () {
     } else {
       const newItem = [null, item, list];
       list[0] = newItem;
+      list = newItem;
     }
     length++;
   };
@@ -23,7 +24,7 @@ module.exports = function singleLinkedList () {
     if (length === 0) throw new Error('pop of empty linked-ist');
     const [prev, item, tail] = list;
     list = tail;
-    tail[0] = null;
+    if (tail) tail[0] = null;
     length--;
     return item;
   };

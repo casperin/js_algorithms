@@ -1,7 +1,7 @@
 const tape = require('tape');
 const list = require('./double-linked-list');
 
-tape('data-structures/singly-linked-list', t => {
+tape('data-structures/double-linked-list', t => {
   const list1 = list();
 
   list1.push(1);
