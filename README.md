@@ -22,7 +22,7 @@ npm test
 * [x] [Binary Heap](data-structures/heap/binary-heap)
 * [x] [Priority Queue](data-structures/queue/priority-queue)
 * [x] [Singly-Linked List](data-structures/linked-list/singly-linked-list)
-* [x] [Double-Linked List](data-structures/linked-list/double-linked-list)
+* [x] [Doubly-Linked List](data-structures/linked-list/doubly-linked-list)
 * [ ] Skip List
 * [ ] Binary Search Tree
 * [ ] B-Tree
