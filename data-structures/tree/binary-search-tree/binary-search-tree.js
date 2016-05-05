@@ -34,7 +34,7 @@ module.exports = function binarySearchTree (get = id) {
   };
 
   const findClosest = (head, methodName, seed) => {
-    const data = head.data;
+    const data = get(head.data);
     const left = !head.left ? seed : findClosest(head.left, methodName, seed);
     const right = !head.right ? seed : findClosest(head.right, methodName, seed);
     return Math[methodName](data, left, right);
