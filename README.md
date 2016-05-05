@@ -24,7 +24,7 @@ npm test
 * [x] [Singly-Linked List](data-structures/linked-list/singly-linked-list)
 * [x] [Doubly-Linked List](data-structures/linked-list/doubly-linked-list)
 * [x] [Skip List](data-structures/linked-list/skip-list)
-* [ ] Binary Search Tree
+* [x] [Binary Search Tree](data-structures/tree/binary-search-tree)
 * [ ] B-Tree
 * [ ] Red-Black Tree
 * [ ] Splay Tree

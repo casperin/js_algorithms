@@ -6,3 +6,4 @@ require('../data-structures/queue/priority-queue/test');
 require('../data-structures/linked-list/singly-linked-list/test');
 require('../data-structures/linked-list/doubly-linked-list/test');
 require('../data-structures/linked-list/skip-list/test');
+require('../data-structures/tree/binary-search-tree/test');
