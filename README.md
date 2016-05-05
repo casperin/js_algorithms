@@ -23,7 +23,7 @@ npm test
 * [x] [Priority Queue](data-structures/queue/priority-queue)
 * [x] [Singly-Linked List](data-structures/linked-list/singly-linked-list)
 * [x] [Doubly-Linked List](data-structures/linked-list/doubly-linked-list)
-* [ ] Skip List
+* [x] [Skip List](data-structures/linked-list/skip-list)
 * [ ] Binary Search Tree
 * [ ] B-Tree
 * [ ] Red-Black Tree
