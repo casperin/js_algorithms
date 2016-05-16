@@ -10,3 +10,6 @@ require('../data-structures/tree/binary-search-tree/test');
 require('../data-structures/tree/b-tree/test');
 
 require('../sorting/quick-sort/test');
+require('../sorting/merge-sort/test');
+require('../sorting/insertion-sort/test');
+require('../sorting/selection-sort/test');
