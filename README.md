@@ -44,8 +44,8 @@ npm test
 
 ### Graph Operations
 
-* [ ] Adjacency list
-* [ ] Incidence list
+* [x] [Adjacency list](graph/adjacency-list)
+* [x] [Incidence list](graph/incidence-list)
 * [ ] Adacency matrix
 * [ ] Incidence matrix
 

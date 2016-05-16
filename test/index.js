@@ -16,3 +16,6 @@ require('../sorting/selection-sort/test');
 require('../sorting/bubble-sort/test');
 require('../sorting/heap-sort/test');
 require('../sorting/bucket-sort/test');
+
+require('../graph/adjacency-list/test');
+require('../graph/incidence-list/test');
