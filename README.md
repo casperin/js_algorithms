@@ -33,12 +33,12 @@ npm test
 ### Array Sorting Algorithms
 
 * [x] [Quicksort](sorting/quick-sort)
-* [ ] Mergesort
+* [x] [Mergesort](sorting/merge-sort)
 * [ ] Trimsort
 * [ ] Heapsort
 * [ ] Bubble Sort
-* [ ] Insertion Sort
-* [ ] Selection Sort
+* [x] [Insertion Sort](sorting/insertion-sort)
+* [x] [Selection Sort](sorting/selection-sort)
 * [ ] Bucket Sort
 * [x] [Radix Sort](sorting/radix-sort)
 
