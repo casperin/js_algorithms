@@ -25,14 +25,14 @@ npm test
 * [x] [Doubly-Linked List](data-structures/linked-list/doubly-linked-list)
 * [x] [Skip List](data-structures/linked-list/skip-list)
 * [x] [Binary Search Tree](data-structures/tree/binary-search-tree)
-* [ ] B-Tree
+* [x] [B-Tree](data-structures/tree/b-tree) *Not working*
 * [ ] Red-Black Tree
 * [ ] Splay Tree
 * [ ] AVL Tree
 
 ### Array Sorting Algorithms
 
-* [ ] Quicksort
+* [x] [Quicksort](sorting/quick-sort)
 * [ ] Mergesort
 * [ ] Trimsort
 * [ ] Heapsort

@@ -7,3 +7,6 @@ require('../data-structures/linked-list/singly-linked-list/test');
 require('../data-structures/linked-list/doubly-linked-list/test');
 require('../data-structures/linked-list/skip-list/test');
 require('../data-structures/tree/binary-search-tree/test');
+require('../data-structures/tree/b-tree/test');
+
+require('../sorting/quick-sort/test');
