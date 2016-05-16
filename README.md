@@ -34,13 +34,13 @@ npm test
 
 * [x] [Quicksort](sorting/quick-sort)
 * [x] [Mergesort](sorting/merge-sort)
-* [ ] Trimsort
-* [ ] Heapsort
-* [ ] Bubble Sort
+* [ ] Timsort
+* [x] [Heapsort](sorting/heap-sort)
+* [x] [Bubble Sort](sorting/bubble-sort)
 * [x] [Insertion Sort](sorting/insertion-sort)
 * [x] [Selection Sort](sorting/selection-sort)
-* [ ] Bucket Sort
-* [x] [Radix Sort](sorting/radix-sort)
+* [x] [Bucket Sort](sorting/bucket-sort)
+* [x] [Radix Sort](sorting/radix-sort) (very old implementation in CoffeeScript)
 
 ### Graph Operations
 

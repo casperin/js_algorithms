@@ -13,3 +13,6 @@ require('../sorting/quick-sort/test');
 require('../sorting/merge-sort/test');
 require('../sorting/insertion-sort/test');
 require('../sorting/selection-sort/test');
+require('../sorting/bubble-sort/test');
+require('../sorting/heap-sort/test');
+require('../sorting/bucket-sort/test');
