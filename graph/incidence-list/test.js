@@ -11,12 +11,6 @@ tape('graph/incidence-list', t => {
   const actual1 = quickSort(result1);
   t.deepEqual(actual1, expected1, 'Simple incidence list with nodes of numbers');
 
-  const connections2 = [['a', 'b'], ['a', 'c']];
-  const expected2 = ['b', 'c'];
-  const result2 = incidenceList(connections2, 'a');
-  const actual2 = quickSort(result2);
-  t.deepEqual(actual2, expected2, 'Simple incidence list with nodes of letters');
-
   t.end();
 });
 

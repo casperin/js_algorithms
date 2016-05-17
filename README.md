@@ -25,7 +25,7 @@ npm test
 * [x] [Doubly-Linked List](data-structures/linked-list/doubly-linked-list)
 * [x] [Skip List](data-structures/linked-list/skip-list)
 * [x] [Binary Search Tree](data-structures/tree/binary-search-tree)
-* [x] [B-Tree](data-structures/tree/b-tree) *Not working*
+* [ ] [B-Tree](data-structures/tree/b-tree) (*Not working*)
 * [ ] Red-Black Tree
 * [ ] Splay Tree
 * [ ] AVL Tree
@@ -46,8 +46,8 @@ npm test
 
 * [x] [Adjacency list](graph/adjacency-list)
 * [x] [Incidence list](graph/incidence-list)
-* [ ] Adacency matrix
-* [ ] Incidence matrix
+* [x] [Adjacency matrix](graph/adjacency-matrix)
+* [x] [Incidence matrix](graph/incidence-matrix)
 
 ### Heap Operations
 

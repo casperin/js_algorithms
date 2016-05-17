@@ -19,3 +19,5 @@ require('../sorting/bucket-sort/test');
 
 require('../graph/adjacency-list/test');
 require('../graph/incidence-list/test');
+require('../graph/adjacency-matrix/test');
+require('../graph/incidence-matrix/test');

@@ -1,15 +1,18 @@
+const add = (list, nodeA, nodeB) => {
+  if (!list[nodeA]) list[nodeA] = [];
+  if (!list[nodeA].includes(nodeB)) list[nodeA].push(nodeB);
+}
+
 const adjacencyList = connections => {
-  const buffer = new Map();
+  const result = [];
 
   connections.forEach(([a, b]) => {
-    if (!buffer.has(a)) buffer.set(a, []);
-    if (!buffer.get(a).includes(b)) buffer.get(a).push(b);
-
-    if (!buffer.has(b)) buffer.set(b, []);
-    if (!buffer.get(b).includes(a)) buffer.get(b).push(a);
+    if (typeof a !== 'number' || typeof b !== 'number') throw new Error('Nodes must be integers');
+    add(result, a, b);
+    add(result, b, a);
   });
 
-  return [...buffer];
+  return result;
 }
 
 module.exports = adjacencyList;
